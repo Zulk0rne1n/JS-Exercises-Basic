@@ -2,9 +2,14 @@ let hello = 'Ciao';     // number
 let age = 18;       // boolean
 let isGraduated = false;     // string
 
-console.log(Boolean(hello));
-console.log(String(age));
-console.log(Number(isGraduated));
+hello = Number(hello);
+age = Boolean(age);
+isGraduated = String(isGraduated);
 
-// As long as the 'hello' variable has a value it prints out "true",
-// it didn't change even when I give it the value '0' because as a string it still had a value. 
+console.log(hello);
+console.log(age);
+console.log(isGraduated);
+
+// As long as a string variable has a non numeric value 
+// it won't be possible to convert it into a number and that is why it prints out `NaN`
+// P.S. I think it may be achieved with a function or a legend.
