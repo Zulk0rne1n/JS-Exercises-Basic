@@ -1,8 +1,10 @@
 let firstName = "Ulaş"
 
 function sayHelloName(callback) {
-    console.log("Hello");
-    callback();
+    setTimeout(function() {
+        console.log("Hello");
+        callback();
+    }, 1000);
 }
 
 function printName(){
