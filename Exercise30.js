@@ -1,6 +1,6 @@
 firstName = "Cosimo"
-function printName(firstName) {
+function sayHelloName(firstName) {
     console.log(`Hello ${firstName}`);
     // console.log("Hello" + " " + firstName);
 }
-printName(firstName);
+sayHelloName(firstName);
