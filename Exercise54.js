@@ -8,4 +8,5 @@ function nicknameMap(people) {
 }
 
 const nickname = nicknameMap(people);
+
 console.log(nickname);
